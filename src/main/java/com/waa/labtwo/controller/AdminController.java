@@ -22,7 +22,7 @@ public class AdminController {
     public AdminController(PostService postService) {
         this.postService = postService;
     }
-
+// this is find all users
     @GetMapping
     public List<Post> findAllUsers() {
         return postService.findAll();
