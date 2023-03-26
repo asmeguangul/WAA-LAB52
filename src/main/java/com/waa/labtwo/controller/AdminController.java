@@ -23,6 +23,7 @@ public class AdminController {
         this.postService = postService;
     }
 // this is find all users
+    // this is in fiture of the1
     @GetMapping
     public List<Post> findAllUsers() {
         return postService.findAll();
